@@ -166,3 +166,30 @@ footer p {
   /* border-radius: 8px; */
   object-fit: cover;
 }
+
+#comments {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.comment-writing-container {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  resize: vertical, horizontal; /* 크기 조절 가능 */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+.comment-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
