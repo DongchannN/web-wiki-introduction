@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
     
-    const commentData = `${author},${commentText}\n`;
+    // const commentData = `${author},${commentText}\n`;
 
     const commentItem = document.createElement("div");
     commentItem.classList.add("comment-item");
