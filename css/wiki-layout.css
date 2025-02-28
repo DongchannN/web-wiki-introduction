@@ -106,6 +106,7 @@ aside h2 {
   width: var(--aside-width);
   height: var(--aside-width);
   background-repeat: no-repeat;
+  background-size: cover;
   text-indent: -1000rem;
 }
 
